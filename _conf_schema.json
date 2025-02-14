@@ -1,0 +1,18 @@
+{
+    "r18": {
+        "description": "是否为r18",
+        "type": "string",
+        "hint": "0为否，1为是，2为随机",
+        "obvious_hint": true,
+		"default": "0",
+		"options": ["0", "1", "2"]
+    },
+	"size": {
+        "description": "图片尺寸",
+        "type": "string",
+        "hint": "original为原图，regular为作品详情页缩略图，small为p站首页的略缩图",
+		"obvious_hint": true,
+		"default": "original",
+		"options": ["original", "regular", "small"]
+    }
+}
